@@ -2,7 +2,7 @@
 #include <vector>
 #include <gtest/gtest.h>
 
-TEST(TwoSumTest, One) {
+TEST(TwoSumTest, Case1) {
   std::vector<int> nums{ 2, 7, 11, 15 };
   int target = 9;
 
@@ -11,7 +11,7 @@ TEST(TwoSumTest, One) {
   EXPECT_EQ(expected, twoSum(nums, target));
 }
 
-TEST(TwoSumTest, Two) {
+TEST(TwoSumTest, Case2) {
   std::vector<int> nums{ 3, 2, 4 };
   int target = 6;
 
@@ -20,7 +20,7 @@ TEST(TwoSumTest, Two) {
   EXPECT_EQ(expected, twoSum(nums, target));
 }
 
-TEST(TwoSumTest, Three) {
+TEST(TwoSumTest, Case3) {
   std::vector<int> nums{ 3, 3 };
   int target = 6;
 

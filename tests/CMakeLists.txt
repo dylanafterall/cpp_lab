@@ -14,7 +14,10 @@ FetchContent_MakeAvailable(googletest)
 # project testing setup
 enable_testing()
 
-add_executable(cpp_lab_tests lc_easy/two_sum_test.cpp)
+add_executable(cpp_lab_tests
+        lc_easy/two_sum_test.cpp
+        lc_easy/palindrome_number_test.cpp
+)
 
 target_link_libraries(cpp_lab_tests
         GTest::gtest_main
