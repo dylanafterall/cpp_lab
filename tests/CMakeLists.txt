@@ -17,6 +17,9 @@ enable_testing()
 add_executable(cpp_lab_tests
         lc_easy/two_sum_test.cpp
         lc_easy/palindrome_number_test.cpp
+        lc_easy/roman_to_integer_test.cpp
+        lc_easy/longest_common_prefix.cpp
+        lc_easy/valid_parentheses_test.cpp
 )
 
 target_link_libraries(cpp_lab_tests
